@@ -1,0 +1,151 @@
+
+<html>
+<head>
+<title>album</title>
+<style type="text/css">
+body{
+	width:100%;
+	height:100%;
+	 background:url(images/bj2.jpg);
+	 background-size:100%;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+}
+.top{
+	font-size:80px;
+	font-weight:bold;
+}
+.navbar{
+	width:100%;
+	height:29px;
+	background:#963;
+	margin-top:10px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.d1{
+	width:1008px;
+	height:29px;
+	margin:0 auto;
+}
+.d1 ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.d1 ul li{
+	float:left;
+}
+.d1 li a{
+	padding-left:15px;
+	padding-right:15px;
+	display:block;
+	color:white;
+	line-height:29px;
+	text-decoration:none;
+}
+.d1 li a:hover{
+	background:#9F3;
+}
+body{
+/*background:gray;*/
+}
+#wrap{
+	width:80%;
+	height:160px;
+	border:1px solid black;
+	position:relative;
+	margin:5px 10%;
+	background:#F5E0E3;
+	overflow:hidden;
+}
+#wrap ul{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+}
+#wrap ul li{
+	list-style:none;
+	float:left;
+	margin:5px 10px;
+}
+#wrap ul li img{
+	width:200px;
+	height:150px;
+	cursor:pointer;
+}
+.direction{
+	width:120px;
+	margin:10px auto;
+}
+.direction img{
+	border:1px dotted pink;
+	cursor:pointer;
+}
+.active{
+	border:2px solid gray;
+}
+.if{
+	width:350px;
+	height:350px;
+	margin:auto;
+}
+
+</style>
+<script type="text/javascript" src="showpic.js">
+</script>
+</head>
+<body onLoad="showpics()">
+<div class="top" style="margin-left:180px;"><a href="index.html">Home </a></div>
+<div class="navbar">
+<div class="d1">
+<ul>
+  <li><a href="cate.html">cate</a></li>
+  <li><a href="album.html">album  </a></li>
+   <li><a href="cuisine.html">cuisine</a></li>
+  <li><a href="menu.html">menu </a></li>
+  <li><a href="prompt.html">prompt </a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="direction">
+<img src="images/left.png" alt="" id="button1">
+<img src="images/right.png" alt="" id="button2">
+</div>
+<div id="wrap" align="center">
+<ul style="width: 2640px; left: -1236px;">
+
+<li><a href="images/1.jpg" target="content"><img class="none" src="images/1.jpg" alt="2"></a></li>
+<li><a href="images/2.jpg" target="content"><img class="none" src="images/2.jpg" alt="2" ></a></li>
+<li><a href="images/3.jpg" target="content"><img class="none" src="images/3.jpg" alt="3" ></a></li>
+<li><a href="images/4.jpg" target="content"><img class="none" src="images/4.jpg" alt="4" ></a></li>
+<li><a href="images/5.jpg" target="content"><img class="none" src="images/5.jpg" alt="5" ></a></li>
+<li><a href="images/6.jpg" target="content"><img class="none" src="images/6.jpg" alt="6" ></a></li>
+
+
+<li><a href="images/1.jpg" target="content"><img class="none" src="images/1.jpg" alt="2"></a></li>
+<li><a href="images/2.jpg" target="content"><img class="none" src="images/2.jpg" alt="2" ></a></li>
+<li><a href="images/3.jpg" target="content"><img class="none" src="images/3.jpg" alt="3" ></a></li>
+<li><a href="images/4.jpg" target="content"><img class="none" src="images/4.jpg" alt="4" ></a></li>
+<li><a href="images/5.jpg" target="content"><img class="none" src="images/5.jpg" alt="5" ></a></li>
+<li><a href="images/6.jpg" target="content"><img class="none" src="images/6.jpg" alt="6" ></a></li>
+</ul>
+</div>
+<center>
+<iframe  name="content" class="if"></iframe>
+</center>
+
+</body></html>
